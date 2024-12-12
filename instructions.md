@@ -1,10 +1,10 @@
 ## How to Flash Firmware
 1. Connected the keyboard to the computer by USB
-2. Double-click the ==RESET== key to enter BootLoader mode. (At this point, you can see a new USB flash disk named nice！Nano)
+2. Double-click the `RESET` key to enter BootLoader mode. (At this point, you can see a new USB flash disk named nice！Nano)
 3. We just need to put the new firmware into the first layer directory of this USB drive. 
 **Note: Do not delete any files from the USB drive**
 
-BootLoader can also be by triggering the ==**&BootLoader**== keycode through a combination of keys. 
+BootLoader can also be by triggering the `**&BootLoader**` keycode through a combination of keys. 
 After modifying the keymap, you can get a new firmware.
 
 > In most cases，you only need to flash the left_hand keyboard（main keyboard）
@@ -24,7 +24,7 @@ The keyboard has many functions that can be modified. I suggest understanding th
 1. Fork this repository
 2. Now click the “action” into a new page.
 3. Click the “I understand workflows,go ahead and enable them”
-4. click on the option bar on the left. github/workflow/guil.yml
+4. Click on the option bar on the left. github/workflow/guil.yml
 5. Click the “run workflow”botton
 6. Click the Run workflow
 7. The page content will refresh to look like the image above, with yellow dots indicating that the firmware is being compiled. Please wait patiently for about 10 minutes.
