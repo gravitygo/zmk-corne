@@ -13,7 +13,7 @@ If you need a 3D model of this keyboard, it's [here](https://github.com/gravityg
 3. Make sure the `eyelash_corne` project in [`config/west.yml`](config/west.yml) still works. The `boards/arm/eyelash_corne` folder will be downloaded from this URL.
 4. If there is still a `boards/arm/eyelash_corne` folder in your fork, delete it.
 
-**If you already have a ZMK config repository, [you can add this one as a module instead of forking](https://zmk.dev/docs/features/modules#building-with-modules).**
+For a more detailed instructions go [here](instructions.md)
 
 ## Keymap Diagram
 
