@@ -7,10 +7,10 @@
 BootLoader can also be by triggering the **&BootLoader** keycode through a combination of keys. 
 After modifying the keymap, you can get a new firmware.
 
-In most cases，you only need to flash the left_hand keyboard（main keyboard）
+> In most cases，you only need to flash the left_hand keyboard（main keyboard）
 
-Updating firmware for the  keyboard also need connecting a USB cable.
-The setting_reset firmware’function is to clear the connection configuration of the left and right keyboards.
+*Updating firmware for the  keyboard also need connecting a USB cable.
+*The setting_reset firmware’s function is to clear the connection configuration of the left and right keyboards.
 
 ## How to generate the new firmware as you need
 The keyboard has many functions that can be modified. I suggest understanding the functions of the keyboard before modifying the firmware. You should first take the time to understand the existing functions of the keyboard and familiarize yourself with the characteristics of keyboard operation. Afterwards, summarize your modification requirements for the original functions. There are many ways to create ZMK keyboard firmware, such as installing the ZMK compilation environment locally and using GitHub's codespace. I recommend the simplest method, which is to use the git action feature on GitHub to compile new firmware.
