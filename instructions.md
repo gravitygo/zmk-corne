@@ -1,5 +1,5 @@
 ## How to Flash Firmware
-1. Connected the keyboard to the computer by USB
+1. Connect the keyboard to the computer by USB
 2. Double-click the `RESET` key to enter BootLoader mode. (At this point, you can see a new USB flash disk named nice！Nano)
 3. We just need to put the new firmware into the first layer directory of this USB drive. 
 **Note: Do not delete any files from the USB drive**
@@ -7,7 +7,7 @@
 BootLoader can also be by triggering the `&BootLoader` keycode through a combination of keys. 
 After modifying the keymap, you can get a new firmware.
 
-> Flash all files that has "left" in the left keyboard and "right" on right keybaord
+> Flash all files that has "left" keyword in the left keyboard and "right" keyword on right keybaord
 
 * Updating firmware for the keyboard also need connecting a USB cable.
 * The setting_reset firmware’s function is to clear the connection configuration of the left and right keyboards.
