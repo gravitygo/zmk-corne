@@ -7,7 +7,7 @@
 BootLoader can also be by triggering the `&BootLoader` keycode through a combination of keys. 
 After modifying the keymap, you can get a new firmware.
 
-> In most cases，you only need to flash the left_hand keyboard（main keyboard）
+> Flash all files that has "left" in the left keyboard and "right" on right keybaord
 
 * Updating firmware for the keyboard also need connecting a USB cable.
 * The setting_reset firmware’s function is to clear the connection configuration of the left and right keyboards.
