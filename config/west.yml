@@ -8,6 +8,8 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: petejohanson
       url-base: https://github.com/petejohanson
+    - name: danielsodium                        # your username
+      url-base: https://github.com/danielsodium # your github
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
@@ -16,5 +18,8 @@ manifest:
       remote: petejohanson
       revision: feat/pointers-with-input-processors
       import: app/west.yml
+    - name: nice-view-gif                 # your repository name
+      remote: danielsodium                # your username
+      revision: bongo-cat                 # whatever branch you want
   self:
     path: config
