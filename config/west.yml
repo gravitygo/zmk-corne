@@ -8,14 +8,14 @@ manifest:
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
     - name: petejohanson
       url-base: https://github.com/petejohanson
-    - name: gpeye
-      url-base: https://github.com/GPeye
+    - name: gravitygo
+      url-base: https://github.com/gravitygo
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
-    - name: mario-peripheral-animation
-      remote: gpeye
+    - name: nice-view-gifs
+      remote: gravitygo
       revision: main 
     - name: zmk
       remote: petejohanson
